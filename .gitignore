@@ -18,3 +18,5 @@ outputs/scfm_ON
 *.zip
 
 .Rprofile
+
+*.xml
