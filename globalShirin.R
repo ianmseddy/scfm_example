@@ -47,8 +47,8 @@ out <- SpaDES.project::setupProject(
   functions = "R/study_area_fun.R", #Make SURE THIS IS WHERE YOU SAVED THE FUNCTIONS FILE!
   studyArea = studyAreaFun()$studyArea,
   rasterToMatch = studyAreaFun()$rasterToMatch,
-  # studyAreaLarge = studyAreaLargeFun()$studyAreaLarge,
-  # rasterToMatchLarge = studyAreaLargeFun()$rasterToMatchLarge,
+  studyAreaLarge = studyAreaFun()$studyArea,
+  rasterToMatchLarge = studyAreaFun()$rasterToMatch,
   studyAreaPSP =  studyAreaPSPFun(),
   studyAreaANPP = studyAreaANPPFun(),
   sppEquiv = shirinSppEquivFun(),
